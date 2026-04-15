@@ -1,0 +1,59 @@
+📄 Requisitos por cada HTML
+
+🏠 1. index.html (Inicio)
+Debe tener como mínimo:
+Estructura HTML completa
+<title>
+Menú de navegación
+Título principal (<h1>)
+Un párrafo de bienvenida
+
+👤 2. sobre_mi.html (Sobre mí)
+Debe tener como mínimo:
+Estructura HTML completa
+<title>
+Menú de navegación
+Título (<h1>)
+Información personal (puede ser ficticia)
+Al menos 2 párrafos
+
+🛠️ 3. servicios.html (Servicios)
+Debe tener como mínimo:
+Estructura HTML completa
+<title>
+Menú de navegación
+Título (<h1>)
+Lista de servicios:
+Usar <ul> o <ol>
+Al menos 3 servicios
+
+📞 4. contacto.html (Contacto)
+Debe tener como mínimo:
+Estructura HTML completa
+<title>
+Menú de navegación
+Título (<h1>)
+Información de contacto:
+Email
+Teléfono
+Enlace al formulario de registro
+
+📝 5. formulario_basico.html (Formulario de registro)
+Debe tener como mínimo:
+Estructura HTML completa
+<title>
+Menú de navegación
+Título (<h1>)
+<form>
+🔹 Inputs obligatorios:
+Nombre
+Apellido
+Email
+Teléfono
+Edad
+Contraseña
+👉 Todos deben ser obligatorios (required)
+🔹 Otros elementos:
+<textarea> → Comentarios
+Botón Enviar (submit)
+Botón Reset
