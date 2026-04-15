@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Aquí declaro que este documento usa HTML5 -->
+<html lang="es">
+
+<head>
+    <!-- Aquí defino la configuración inicial y los metadatos de mi página -->
+    <meta charset="UTF-8"> <!-- Uso esta codificación para que se muestren bien las tildes y la 'ñ' -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Me aseguro de que el diseño se adapte a la pantalla del dispositivo (responsive) -->
+    <title>FORMULARIO</title> <!-- Este título aparecerá en la pestaña del navegador -->
+</head>
+
+<body>
+    <!-- Inicio mi barra de navegación -->
+    <nav>
+        <!-- <ul> me permite definir agrupaciones estilo listas -->
+        <!-- <button> crea un botón visual y funcional en el que el usuario puede hacer clic -->
+        <!-- Uso <a> (anchor o ancla) con el atributo 'href' (hypertext reference) para crear el enlace o puente hacia otra de mis páginas HTML -->
+        <ul><button><a href="index.html">INICIO</a></button></ul>
+        <ul><button><a href="sobre_mi.html">SOBRE MI</a></button></ul>
+        <ul><button><a href="servicios.html">SERVICIOS</a></button></ul>
+        <ul><button><a href="contacto.html">CONTACTO</a></button></ul>
+        <ul><button><a href="formulario_basico.html">FORMULARIO</a></button></ul>
+    </nav>
+
+    <!-- Creo una sección para el título del formulario -->
+    <section>
+        <div>
+            <h1>Formulario de registro</h1>
+        </div>
+    </section>
+
+    <!-- Sección principal donde coloco el formulario -->
+    <section>
+        <div>
+            <!-- Uso la etiqueta <form> para agrupar todos los campos interactivos donde el usuario ingresará sus datos que luego pueden ser enviados a un servidor -->
+            <form action="">
+                
+                <!-- Uso <label> para ponerle una etiqueta de texto al campo. -->
+                <!-- Utilizo el atributo 'for' y lo conecto con el 'id' del input ("nombre") para que si el usuario hace clic o 'tap' en la palabra "Nombre:", el campo de texto se active automáticamente. -->
+                <label for="nombre">Nombre:</label>
+                <!-- Uso <input> para crear el área interactiva concreta donde el usuario escribirá la información. -->
+                <!-- El atributo 'type' me permite decirle al sistema qué tipo de información espero. Poner "text" sirve para texto ordinario. -->
+                <!-- El atributo 'id' es un identificador único en tooooda mi página para asociarlo al <label> o por si quiero darle luego comportamientos en CSS o JS a este campo exacto. -->
+                <!-- El atributo 'name' lo pongo como una clave para cuando mi formulario sea procesado; el servidor recibirá los datos con la etiqueta (por ej) "nombre = Carlos". -->
+                <input type="text" id="nombre" name="nombre" required> <!-- Pongo 'required' para obligarlos a llenar de forma requerida el formulario antes de enviarlo -->
+                <br> <!-- Uso <br> para "Break Row" o romper la línea un dar un salto visual hacia abajo -->
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <br>
+                
+                <!-- Al ponerle 'type' como "email", el navegador va a chequear automáticamente por mí si lo que escriben tiene una forma de correo (@) -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                
+                <!-- 'type' "tel" hace que si lo abren en un celular, se despliegue un teclado optimizado para marcar números de teléfono -->
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <br>
+                
+                <!-- Con el 'type' "number", la cajita solo aceptará números e incluye unas flechitas hacia arriba y abajo para incrementarlos -->
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+                <br>
+                
+                <!-- El 'type' "password" me permite que los caracteres ingresados por el usuario sean ocultos visualmente (por puntitos) por motivos de seguridad -->
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+                <br>
+                
+                <!-- Uso la etiqueta <textarea> en lugar de un <input> porque me sirve para habilitar un ingreso de textos largos de varias líneas (multilínea). -->
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" maxlength="200"></textarea> <!-- Uso maxlength para no dejar escribir a mi usuario más de 200 caracteres -->
+                <br>
+                
+                <!-- Es un tipo de botón especial dentro de <form>. 'submit' (enviar) significa que juntará todos los datos con los 'names' definidos y los despachará -->
+                <button type="submit">Enviar</button>
+                <!-- Es un botón que con el tipo 'reset', limpia automátícamente a nivel cero el estado del form, borrando lo recién escrito -->
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+👤 Perfil: Juan Pepito (para el portfolio)
+🏠 Datos generales
+Nombre: Juan Pepito
+Edad: 25 años
+Profesión: Desarrollador Web Junior
+Ciudad: Santa Fe, Argentina
+📄 Para index.html (Inicio)
+
+👉 Texto sugerido:
+
+Título:
+
+Bienvenido a mi portfolio
+
+Párrafo:
+
+Hola, soy Juan Pepito, desarrollador web junior apasionado por la tecnología. En este sitio podrás conocer más sobre mí, mis servicios y cómo contactarme.
+👤 Para sobre_mi.html
+
+👉 Texto sugerido:
+
+Soy Juan Pepito, desarrollador web en formación con muchas ganas de crecer en el mundo IT. Me interesa especialmente el desarrollo frontend y la creación de sitios web accesibles.
+
+Actualmente me encuentro aprendiendo HTML, CSS y JavaScript, y busco mejorar mis habilidades a través de la práctica constante y nuevos desafíos.
+🛠️ Para servicios.html
+
+👉 Servicios:
+
+Desarrollo de páginas web básicas
+Diseño de interfaces simples
+Mantenimiento de sitios web
+Carga de contenido web
+📞 Para contacto.html
+
+👉 Datos:
+
+Email: juanpepito@gmail.com
+Teléfono: 3425123456
+
+👉 Texto opcional:
+
+Podés comunicarte conmigo a través de estos medios o completar el formulario de registro.
+📝 Para formulario_basico.html
+
+👉 No necesita texto largo, pero podés agregar:
+
+Completá el siguiente formulario para contactarte conmigo.
